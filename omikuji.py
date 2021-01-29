@@ -1,18 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-__author__ = "TAKESHITA_Kyoshiro"
-__email__ = "tkstria@ruri.waseda.jp"
-__date__ = ""
-description :
 
-"""
 
 import tkinter as tk
 import random
 
 threeletters = []
-with open("C:\\Users\\dearc\\OneDrive\\デスクトップ\\さんもじ.txt", mode="r") as f:
+with open("", mode="r") as f:
     threeletters = f.readlines()
 threeletters = [i.strip("\n") for i in threeletters]
 
